@@ -95,7 +95,19 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     touch filename
     ```
-
+    
+- **editing the file**
+ - To open and edit a file, run the following command:
+    ```
+    vi filename
+    ```
+    
+- **opening a File in VSCode**
+ - To open a file inside VSCode, run the following command:
+    ```
+    code filename
+    ```
+    
 - **Viewing the Contents of a File**
  - To view the contents of a file, run the following command:
     ```
