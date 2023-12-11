@@ -1,3 +1,0 @@
-fork: a
-knife: b
-spoon: c
