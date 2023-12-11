@@ -13,6 +13,19 @@ This README file contains important Linux and GitHub commands that you should kn
 - **Creating a Repository**
  - To create a new repository on GitHub, go to your profile page and click on the green "New" button.
 
+- **set Git configuration**
+ - To set up github on the local git, open your terminal or command prompt and run the following commands:
+    ```
+    git config --global user.name “-------”
+    git config --global user.email “------”
+    ```
+
+- **set Git configuration**
+ - To check your github configuration on the local git, run the following commands:
+    ```
+    git config --list
+    ```
+
 - **Cloning a Repository**
  - To clone a repository, open your terminal or command prompt and run the following command:
     ```
