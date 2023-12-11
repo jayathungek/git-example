@@ -29,7 +29,7 @@ This README file contains important Linux and GitHub commands that you should kn
 - **Cloning a Repository**
  - To clone a repository, open your terminal or command prompt and run the following command:
     ```
-    git clone https://github.com/username/repository.git
+    git clone git@github.com:username/repository.git
     ```
 
 - **Adding a File to the Repository**
@@ -55,7 +55,7 @@ This README file contains important Linux and GitHub commands that you should kn
    git pull origin main
    ```
    ```
-   git pull https://github.com/user/repo.git master
+   git pull git@github.com:username/repository.git master
    ```
 ## Git
 
