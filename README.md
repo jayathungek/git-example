@@ -210,12 +210,12 @@ This README file contains important Linux and GitHub commands that you should kn
 - **To create a bash script file with the .sh extension. For example, my_script.sh.**
  - Add a shebang line at the beginning of the script to specify the interpreter. In this case, we will use bash.
     ```bash
-    #!/bin/bash
+    #!/user/bin/bash
     ```
  - Write your script commands under the shebang line. Each command should be on a new line. For example, let's print "Hello, World!" and list the files in the current directory.
 
     ```bash
-    #!/bin/bash
+    #!/user/bin/bash
 
     echo "Hello, World!"
 
@@ -238,3 +238,12 @@ This README file contains important Linux and GitHub commands that you should kn
  - This will execute your script and display the output in your terminal.
 
  - Remember to replace my_script.sh with the actual name of your script file.
+ - EXAMPLE:
+   ```bash
+   #!/user/bin/bash
+   greeting = "welcome"
+   user = $(whoami)
+   day = $(date + %A)
+   echo "greeting back $user! Today is $day, which is the best day of the entire week!"
+   echo "your bash shell version is $BASH_VERSION. Enjoy!"
+   ```
