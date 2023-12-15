@@ -59,6 +59,11 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
 ## Git
 
+- **Initializing a new repository**
+ - To create a new repository
+    ```
+    git init
+    ```
 - **Creating a New Branch**
  - To create a new branch, run the following command:
     ```
