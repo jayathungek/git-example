@@ -33,7 +33,11 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git clone git@github.com:username/repository.git
     ```
-
+- **connect to a remote repository on GitHub**
+ - Run this git command to connect your local Git repository to a remote repository on GitHub.
+   ```bash
+    git remote add origin git@github.com:username/repositoryname.git
+   ```
 - **Adding a File to the Repository**
  - To add a file to the repository, first make sure the file is in the correct directory. Then, open your terminal or command prompt and navigate to the directory where the file is located. Finally, run the following command:
     ```
