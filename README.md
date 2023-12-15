@@ -51,12 +51,12 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
 - **Update your repo to the latest changes**
  -  If you already have a local copy of the repository and you want to update it, you can use the git pull command. This command fetches changes from the remote repository and merges them into your local branch.
-   ```
-   git pull origin main
-   ```
-   ```
-   git pull git@github.com:username/repository.git master
-   ```
+    ```
+    git pull origin main
+    ```
+    ```
+    git pull git@github.com:username/repository.git master
+    ```
 ## Git
 
 - **Creating a New Branch**
