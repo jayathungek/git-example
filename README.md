@@ -91,6 +91,9 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git merge branchname
     ```
+    ```
+    git merge branchname --no-edit -m "commit message"
+    ```
 
 - **Deleting a Branch**
  - To delete a branch, run the following command:
