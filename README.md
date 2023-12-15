@@ -96,7 +96,17 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git log
     ```
-
+## VSCode
+- **Open VSCode using terminal**
+ - To open VSCode simply write:
+    ```
+    code
+    ```
+- **Open a file using VSCode**
+ - To open a file using VSCode simply write:
+    ```
+    code filename
+    ``` 
 ## Linux Commands
 
 - **Creating a New Directory**
