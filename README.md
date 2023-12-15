@@ -33,11 +33,13 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git clone git@github.com:username/repository.git
     ```
+    
 - **connect to a remote repository on GitHub**
  - Run this git command to connect your local Git repository to a remote repository on GitHub.
    ```bash
     git remote add origin git@github.com:username/repositoryname.git
    ```
+   
 - **Adding a File to the Repository**
  - To add a file to the repository, first make sure the file is in the correct directory. Then, open your terminal or command prompt and navigate to the directory where the file is located. Finally, run the following command:
     ```
@@ -55,6 +57,7 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git push origin master
     ```
+    
 - **Update your repo to the latest changes**
  -  If you already have a local copy of the repository and you want to update it, you can use the git pull command. This command fetches changes from the remote repository and merges them into your local branch.
     ```
@@ -63,6 +66,7 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git pull git@github.com:username/repository.git master
     ```
+    
 ## Git
 
 - **Initializing a new repository**
@@ -70,6 +74,7 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git init
     ```
+    
 - **Creating a New Branch**
  - To create a new branch, run the following command:
     ```
@@ -81,11 +86,13 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git checkout branchname
     ```
+    
 - **current status of your working directory**
  - This command shows you which files have been modified, staged, or deleted and the brach you are currently on. Additionally, it will show you any conflicts that may have arisen during a merge or rebase.
     ```
     git status
     ```
+    
 - **Merging Branches**
  - To merge a branch into the master branch, first switch to the master branch and then run the following command:
     ```
@@ -100,22 +107,27 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git branch -d branchname
     ```
+    
 - **view the commit history**
  - This will display a list of all the commits made to the repository, including the author, date, and commit message.
     ```
     git log
     ```
+    
 ## VSCode
+
 - **Open VSCode using terminal**
  - To open VSCode simply write:
     ```
     code
     ```
+    
 - **Open a file using VSCode**
  - To open a file using VSCode simply write:
     ```
     code filename
-    ``` 
+    ```
+    
 ## Linux Commands
 
 - **Creating a New Directory**
@@ -165,7 +177,17 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     rm -rf filename
     ```
-
+    
+- **Generate a new SSH key pair**
+ - This following command will generate a new SSH key pair. It creates a RSA key pair and saves the private key to a file named "id_rsa" in the "~/.ssh" directory, and it saves the public key to a file named "id_rsa.pub" in the same directory.
+   ```bash
+   ssh-keygen -t rsa
+   ```
+   ```bash
+   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   ```
+ - This command will generate a new SSH key pair. It creates a 4096-bit RSA key pair and saves the private key to a file named "id_rsa" in the "~/.ssh" directory, and it saves the public key to a file named "id_rsa.pub" in the same directory. The -C flag is used to add a comment, which is useful for identification purposes.
+   
 - **Searching for a File or Directory**
  - To search for a file or directory, run the following command:
     ```
@@ -213,6 +235,7 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     uptime
     ```
+    
 ## Bash Files
 - **To create a bash script file with the .sh extension. For example, my_script.sh.**
  - Add a shebang line at the beginning of the script to specify the interpreter. In this case, we will use bash.
@@ -220,7 +243,6 @@ This README file contains important Linux and GitHub commands that you should kn
     #!/user/bin/bash
     ```
  - Write your script commands under the shebang line. Each command should be on a new line. For example, let's print "Hello, World!" and list the files in the current directory.
-
     ```bash
     #!/user/bin/bash
 
@@ -239,9 +261,9 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
  - Now you can run your script by executing the following command:
 
-```bash
-./my_script.sh
-```
+    ```bash
+    ./my_script.sh
+    ```
  - This will execute your script and display the output in your terminal.
 
  - Remember to replace my_script.sh with the actual name of your script file.
