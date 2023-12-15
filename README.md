@@ -6,7 +6,9 @@ This README file contains important Linux and GitHub commands that you should kn
 
 - [GitHub](#github)
 - [Git](#git)
+- [VSCode](#VSCode)
 - [Linux Commands](#linux-commands)
+- [Bash Files](#Bash-Files)
 
 ## GitHub
 
@@ -204,13 +206,13 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     uptime
     ```
-## Bashfiles
+## Bash Files
 - **To create a bash script file with the .sh extension. For example, my_script.sh.**
-    - Add a shebang line at the beginning of the script to specify the interpreter. In this case, we will use bash.
+ - Add a shebang line at the beginning of the script to specify the interpreter. In this case, we will use bash.
     ```bash
     #!/bin/bash
     ```
-    - Write your script commands under the shebang line. Each command should be on a new line. For example, let's print "Hello, World!" and list the files in the current directory.
+ - Write your script commands under the shebang line. Each command should be on a new line. For example, let's print "Hello, World!" and list the files in the current directory.
 
     ```bash
     #!/bin/bash
@@ -219,20 +221,20 @@ This README file contains important Linux and GitHub commands that you should kn
 
     ls
     ```
-    - Save your script file.
+ - Save your script file.
 
-    - Open a terminal and navigate to the directory where your script file is located.
+ - Open a terminal and navigate to the directory where your script file is located.
 
-    - Give the script file execute permissions by running the following command:
+ - Give the script file execute permissions by running the following command:
 
     ```bash
     chmod +x my_script.sh
     ```
-    - Now you can run your script by executing the following command:
+ - Now you can run your script by executing the following command:
 
 ```bash
 ./my_script.sh
 ```
-- This will execute your script and display the output in your terminal.
+ - This will execute your script and display the output in your terminal.
 
-- Remember to replace my_script.sh with the actual name of your script file.
+ - Remember to replace my_script.sh with the actual name of your script file.
