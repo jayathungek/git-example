@@ -70,7 +70,11 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     git checkout branchname
     ```
-
+- **current status of your working directory**
+ - This command shows you which files have been modified, staged, or deleted and the brach you are currently on. Additionally, it will show you any conflicts that may have arisen during a merge or rebase.
+    ```
+    git status
+    ```
 - **Merging Branches**
  - To merge a branch into the master branch, first switch to the master branch and then run the following command:
     ```
@@ -81,6 +85,11 @@ This README file contains important Linux and GitHub commands that you should kn
  - To delete a branch, run the following command:
     ```
     git branch -d branchname
+    ```
+- **view the commit history**
+ - This will display a list of all the commits made to the repository, including the author, date, and commit message.
+    ```
+    git log
     ```
 
 ## Linux Commands
