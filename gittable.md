@@ -84,22 +84,6 @@
       <td class="command">git log</td>
       <td class="description">show all commits in the current branch’s history</td>
     </tr>
-  </table>
-  <p>Git is the free and open source distributed version control system that's responsible for everything GitHub related that happens locally on your computer. This cheat sheet features the most important and commonly used Git commands for easy reference.</p>
-  <h2>INSTALLATION & GUIS</h2>
-  <p>With platform specific installers for Git, GitHub also provides the ease of staying up-to-date with the latest releases of the command line tool while providing a graphical user interface for day-to-day interaction, review, and repository synchronization.</p>
-  <ul>
-    <li>GitHub for Windows: [1](https://htmlcss.tools/)</li>
-    <li>GitHub for Mac: [2](https://webcode.tools/css-generator)</li>
-    <li>Git for All Platforms: [3]</li>
-  </ul>
-  <p>For Linux and Solaris platforms, the latest release is available on the official Git web site.</p>
-  <p>education@github.com</p>
-  <p>[4]</p>
-  <h2>Education</h2>
-  <p>Teach and learn better, together. GitHub is free for students and teachers. Discounts available for other educational uses.</p>
-  <h2>SHARE & UPDATE</h2>
-  <p>Retrieving updates from another repository and updating local repos</p>
   <table>
     <tr>
       <td class="command">git remote add [alias] [url]</td>
