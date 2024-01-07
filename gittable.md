@@ -1,48 +1,6 @@
 <html>
 <head>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 36px;
-      color: #333;
-    }
-
-    h2 {
-      font-size: 24px;
-      color: #555;
-    }
-
-    h3 {
-      font-size: 18px;
-      color: #777;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    td, th {
-      border: 1px solid #ccc;
-      padding: 10px;
-      text-align: left;
-    }
-
-    .command {
-      font-family: Courier, monospace;
-      font-weight: bold;
-      color: #009;
-    }
-
-    .description {
-      font-style: italic;
-      color: #666;
-    }
   </style>
 </head>
 <body>
