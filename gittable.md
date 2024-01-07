@@ -84,6 +84,8 @@
       <td class="command">git log</td>
       <td class="description">show all commits in the current branch’s history</td>
     </tr>
+  <h2>SHARE & UPDATE</h2>
+  <p>Retrieving updates from another repository and updating local repos</p>   
   <table>
     <tr>
       <td class="command">git remote add [alias] [url]</td>
