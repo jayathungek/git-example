@@ -84,7 +84,7 @@
       <td class="command">git log</td>
       <td class="description">show all commits in the current branch’s history</td>
     </tr>
-  <h2>SHARE & UPDATE</h2>
+  <h3>SHARE & UPDATE</h3>
   <p>Retrieving updates from another repository and updating local repos</p>   
   <table>
     <tr>
