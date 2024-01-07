@@ -84,7 +84,7 @@
       <td class="command">git log</td>
       <td class="description">show all commits in the current branch’s history</td>
     </tr>
-  <h3>SHARE & UPDATE</h3>
+  <h2>SHARE & UPDATE</h2>
   <p>Retrieving updates from another repository and updating local repos</p>   
   <table>
     <tr>
@@ -148,4 +148,10 @@
   <p>Rewriting branches, updating commits and clearing history</p>
   <table>
     <tr>
-      <td>
+      <td class="command">git rebase [branch]</td>
+      <td class="description">apply any commits of current branch ahead of specified one</td>
+    </tr>
+    <tr>
+      <td class="command">git reset --hard [commit]</td>
+      <td class="description">clear staging area, rewrite working tree from specified commit</td>
+    </tr>
