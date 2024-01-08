@@ -85,93 +85,6 @@
       <td class="description">show all commits in the current branch’s history</td>
     </tr>
   </table>
-  <h2>SHARE & UPDATE</h2>
-  <p>Retrieving updates from another repository and updating local repos</p>   
-  <table>
-    <tr>
-      <td class="command">git remote add [alias] [url]</td>
-      <td class="description">add a git URL as an alias</td>
-    </tr>
-    <tr>
-      <td class="command">git fetch [alias]</td>
-      <td class="description">fetch down all the branches from that Git remote</td>
-    </tr>
-    <tr>
-      <td class="command">git merge [alias]/[branch]</td>
-      <td class="description">merge a remote branch into your current branch to bring it up to date</td>
-    </tr>
-    <tr>
-      <td class="command">git push [alias] [branch]</td>
-      <td class="description">Transmit local branch commits to the remote repository branch</td>
-    </tr>
-    <tr>
-      <td class="command">git pull</td>
-      <td class="description">fetch and merge any commits from the tracking remote branch</td>
-    </tr>
-  </table>
-  <h2>TRACKING PATH CHANGES</h2>
-  <p>Versioning file removes and path changes</p>
-  <table>
-    <tr>
-      <td class="command">git rm [file]</td>
-      <td class="description">delete the file from project and stage the removal for commit</td>
-    </tr>
-    <tr>
-      <td class="command">git mv [existing-path] [new-path]</td>
-      <td class="description">change an existing file path and stage the move</td>
-    </tr>
-    <tr>
-      <td class="command">git log --stat -M</td>
-      <td class="description">show all commit logs with indication of any paths that moved</td>
-    </tr>
-  </table>
-  <h2>TEMPORARY COMMITS</h2>
-  <p>Temporarily store modified, tracked files in order to change branches</p>
-  <table>
-    <tr>
-      <td class="command">git stash</td>
-      <td class="description">Save modified and staged changes</td>
-    </tr>
-    <tr>
-      <td class="command">git stash list</td>
-      <td class="description">list stack-order of stashed file changes</td>
-    </tr>
-    <tr>
-      <td class="command">git stash pop</td>
-      <td class="description">write working from top of stash stack</td>
-    </tr>
-    <tr>
-      <td class="command">git stash drop</td>
-      <td class="description">discard the changes from top of stash stack</td>
-    </tr>
-  </table>
-  <h2>REWRITE HISTORY</h2>
-  <p>Rewriting branches, updating commits and clearing history</p>
-  <table>
-    <tr>
-      <td class="command">git rebase [branch]</td>
-      <td class="description">apply any commits of current branch ahead of specified one</td>
-    </tr>
-    <tr>
-      <td class="command">git reset --hard [commit]</td>
-      <td class="description">clear staging area, rewrite working tree from specified commit</td>
-    </tr>
-  </table>
-  <h2>IGNORING PATTERNS</h2>
-  <p>Preventing unintentional staging or commiting of files</p>
-  <table>
-    <tr>
-      <td class="command">logs/
-*.notes
-pattern*/</td>
-      <td class="description">Save a file with desired paterns as .gitignore with either direct string 
-matches or wildcard globs</td>
-    </tr>
-    <tr>
-      <td class="command">git config --global core.excludesfile [file]</td>
-      <td class="description">system wide ignore patern for all local repositories</td>
-    </tr>
-  </table>
   <h2>INSPECT & COMPARE</h2>
   <p>Examining logs, diffs and object information</p>
   <table>
@@ -196,4 +109,92 @@ matches or wildcard globs</td>
       <td class="description">show any object in Git in human-readable format</td>
     </tr>
   </table>
+  <h2>TRACKING PATH CHANGES</h2>
+  <p>Versioning file removes and path changes</p>
+  <table>
+    <tr>
+      <td class="command">git rm [file]</td>
+      <td class="description">delete the file from project and stage the removal for commit</td>
+    </tr>
+    <tr>
+      <td class="command">git mv [existing-path] [new-path]</td>
+      <td class="description">change an existing file path and stage the move</td>
+    </tr>
+    <tr>
+      <td class="command">git log --stat -M</td>
+      <td class="description">show all commit logs with indication of any paths that moved</td>
+    </tr>
+  </table>
+  <h2>IGNORING PATTERNS</h2>
+  <p>Preventing unintentional staging or commiting of files</p>
+  <table>
+    <tr>
+      <td class="command">logs/
+*.notes
+pattern*/</td>
+      <td class="description">Save a file with desired paterns as .gitignore with either direct string 
+matches or wildcard globs</td>
+    </tr>
+    <tr>
+      <td class="command">git config --global core.excludesfile [file]</td>
+      <td class="description">system wide ignore patern for all local repositories</td>
+    </tr>
+  </table>
+  <h2>SHARE & UPDATE</h2>
+  <p>Retrieving updates from another repository and updating local repos</p>   
+  <table>
+    <tr>
+      <td class="command">git remote add [alias] [url]</td>
+      <td class="description">add a git URL as an alias</td>
+    </tr>
+    <tr>
+      <td class="command">git fetch [alias]</td>
+      <td class="description">fetch down all the branches from that Git remote</td>
+    </tr>
+    <tr>
+      <td class="command">git merge [alias]/[branch]</td>
+      <td class="description">merge a remote branch into your current branch to bring it up to date</td>
+    </tr>
+    <tr>
+      <td class="command">git push [alias] [branch]</td>
+      <td class="description">Transmit local branch commits to the remote repository branch</td>
+    </tr>
+    <tr>
+      <td class="command">git pull</td>
+      <td class="description">fetch and merge any commits from the tracking remote branch</td>
+    </tr>
+  </table>
+  <h2>REWRITE HISTORY</h2>
+  <p>Rewriting branches, updating commits and clearing history</p>
+  <table>
+    <tr>
+      <td class="command">git rebase [branch]</td>
+      <td class="description">apply any commits of current branch ahead of specified one</td>
+    </tr>
+    <tr>
+      <td class="command">git reset --hard [commit]</td>
+      <td class="description">clear staging area, rewrite working tree from specified commit</td>
+    </tr>
+  </table>
+  <h2>TEMPORARY COMMITS</h2>
+  <p>Temporarily store modified, tracked files in order to change branches</p>
+  <table>
+    <tr>
+      <td class="command">git stash</td>
+      <td class="description">Save modified and staged changes</td>
+    </tr>
+    <tr>
+      <td class="command">git stash list</td>
+      <td class="description">list stack-order of stashed file changes</td>
+    </tr>
+    <tr>
+      <td class="command">git stash pop</td>
+      <td class="description">write working from top of stash stack</td>
+    </tr>
+    <tr>
+      <td class="command">git stash drop</td>
+      <td class="description">discard the changes from top of stash stack</td>
+    </tr>
+  </table>
+
   
