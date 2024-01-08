@@ -1,7 +1,6 @@
 <html>
 <head>
-  <style>
-  </style>
+  GITHUB
 </head>
 <body>
   <h1>GIT CHEAT SHEET</h1>
