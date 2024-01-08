@@ -4,6 +4,34 @@
 </head>
 <body>
   <h1>GIT CHEAT SHEET</h1>
+    <h2>SETUP</h2>
+  <p>Configuring user information used across all local repositories</p>
+  <table>
+    <tr>
+      <td class="command">git config --global user.name “[firstname lastname]”</td>
+      <td class="description">set a name that is identifiable for credit when review version history</td>
+    </tr>
+    <tr>
+      <td class="command">git config --global user.email “[valid-email]”</td>
+      <td class="description">set an email address that will be associated with each history marker</td>
+    </tr>
+    <tr>
+      <td class="command">git config --global color.ui auto</td>
+      <td class="description">set automatic command line coloring for Git for easy reviewing</td>
+    </tr>
+  </table>
+  <h2>SETUP & INIT</h2>
+  <p>Configuring user information, initializing and cloning repositories</p>
+  <table>
+    <tr>
+      <td class="command">git init</td>
+      <td class="description">initialize an existing directory as a Git repository</td>
+    </tr>
+    <tr>
+      <td class="command">git clone [url]</td>
+      <td class="description">retrieve an entire repository from a hosted location via URL</td>
+    </tr>
+  </table>
   <h2>STAGE & SNAPSHOT</h2>
   <p>Working with snapshots and the Git staging area</p>
   <table>
@@ -32,34 +60,7 @@
       <td class="description">commit your staged content as a new commit snapshot</td>
     </tr>
   </table>
-  <h2>SETUP</h2>
-  <p>Configuring user information used across all local repositories</p>
-  <table>
-    <tr>
-      <td class="command">git config --global user.name “[firstname lastname]”</td>
-      <td class="description">set a name that is identifiable for credit when review version history</td>
-    </tr>
-    <tr>
-      <td class="command">git config --global user.email “[valid-email]”</td>
-      <td class="description">set an email address that will be associated with each history marker</td>
-    </tr>
-    <tr>
-      <td class="command">git config --global color.ui auto</td>
-      <td class="description">set automatic command line coloring for Git for easy reviewing</td>
-    </tr>
-  </table>
-  <h2>SETUP & INIT</h2>
-  <p>Configuring user information, initializing and cloning repositories</p>
-  <table>
-    <tr>
-      <td class="command">git init</td>
-      <td class="description">initialize an existing directory as a Git repository</td>
-    </tr>
-    <tr>
-      <td class="command">git clone [url]</td>
-      <td class="description">retrieve an entire repository from a hosted location via URL</td>
-    </tr>
-  </table>
+
   <h2>BRANCH & MERGE</h2>
   <p>Isolating work in branches, changing context, and integrating changes</p>
   <table>
