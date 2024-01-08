@@ -155,3 +155,44 @@
       <td class="command">git reset --hard [commit]</td>
       <td class="description">clear staging area, rewrite working tree from specified commit</td>
     </tr>
+  </table>
+  <h2>IGNORING PATTERNS</h2>
+  <p>Preventing unintentional staging or commiting of files</p>
+  <table>
+    <tr>
+      <td class="command">logs/
+*.notes
+pattern*/</td>
+      <td class="description">Save a file with desired paterns as .gitignore with either direct string 
+matches or wildcard globs</td>
+    </tr>
+    <tr>
+      <td class="command">git config --global core.excludesfile [file]</td>
+      <td class="description">system wide ignore patern for all local repositories</td>
+    </tr>
+  </table>
+  <h2>INSPECT & COMPARE</h2>
+  <p>Examining logs, diffs and object information</p>
+  <table>
+    <tr>
+      <td class="command">git log</td>
+      <td class="description">show the commit history for the currently active branch</td>
+    </tr>
+    <tr>
+      <td class="command">git log branchB..branchA</td>
+      <td class="description">show the commits on branchA that are not on branchB</td>
+    </tr>
+    <tr>
+      <td class="command">git log --follow [file]</td>
+      <td class="description">show the commits that changed file, even across renames</td>
+    </tr>
+    <tr>
+      <td class="command">git diff branchB...branchA</td>
+      <td class="description">show the diff of what is in branchA that is not in branchB</td>
+    </tr>
+    <tr>
+      <td class="command">git show [SHA]</td>
+      <td class="description">show any object in Git in human-readable format</td>
+    </tr>
+  </table>
+  
