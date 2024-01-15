@@ -129,7 +129,11 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     
 ## Linux Commands
-
+- **printing working directory**
+ - To print the path of the working directory, starting from the root
+   ```
+   pwd
+   ```
 - **Creating a New Directory**
  - To create a new directory, run the following command:
     ```
