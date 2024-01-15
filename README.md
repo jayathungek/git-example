@@ -188,7 +188,11 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     rm -rf [filename]
     ```
-    
+- **history of executed command**
+ - To view previously executed commands:
+    ```
+    history
+    ``` 
 - **Generate a new SSH key pair**
  - This following command will generate a new SSH key pair. It creates a RSA key pair and saves the private key to a file named "id_rsa" in the "~/.ssh" directory, and it saves the public key to a file named "id_rsa.pub" in the same directory.
    ```bash
