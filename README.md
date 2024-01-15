@@ -172,7 +172,7 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     
 - **Disk uusage**
- - To analyze and report on disk usage within directories and files.
+ - To analyze and report on disk usage within directories and files, execute the following command:
     ```
     du [directory/file]
     ```
@@ -193,11 +193,32 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     rm -rf [filename]
     ```
+    
 - **history of executed command**
- - To view previously executed commands:
+ - To view previously executed this command:
     ```
     history
-    ``` 
+    ```
+    
+- **view date and time**
+ - To view current date and time executed this command:
+    ```
+    date
+    ```
+- **view calender**
+ - To view specific month in a year executed this command:
+    ```
+    cal [month][year]
+    ```
+ - To view current month in a year executed this command:
+    ```
+    cal
+    ```
+ - To view full year executed this command:
+    ```
+    cal -y
+    ```
+    
 - **Generate a new SSH key pair**
  - This following command will generate a new SSH key pair. It creates a RSA key pair and saves the private key to a file named "id_rsa" in the "~/.ssh" directory, and it saves the public key to a file named "id_rsa.pub" in the same directory.
    ```bash
