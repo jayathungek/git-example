@@ -125,7 +125,7 @@ This README file contains important Linux and GitHub commands that you should kn
 - **Open a file using VSCode**
  - To open a file using VSCode simply write:
     ```
-    code filename
+    code [filename]
     ```
     
 ## Linux Commands
@@ -137,13 +137,13 @@ This README file contains important Linux and GitHub commands that you should kn
 - **Creating a New Directory**
  - To create a new directory, run the following command:
     ```
-    mkdir directoryname
+    mkdir [directoryname]
     ```
 
 - **Changing the Current Directory**
  - To change the current directory, run the following command:
     ```
-    cd directoryname
+    cd [directoryname]
     ```
  - To change the current directory to parent directory, run the following command:
     ```
@@ -162,31 +162,31 @@ This README file contains important Linux and GitHub commands that you should kn
 - **Creating a New File**
  - To create a new file, run the following command:
     ```
-    touch filename
+    touch [filename]
     ```
     
 - **editing the file**
  - To open and edit a file, run the following command:
     ```
-    vi filename
+    vi [filename]
     ```
     
-- **opening a File in VSCode**
- - To open a file inside VSCode, run the following command:
+- **Disk uusage**
+ - To analyze and report on disk usage within directories and files.
     ```
-    code filename
+    du [directory/file]
     ```
     
 - **Viewing the Contents of a File**
  - To view the contents of a file, run the following command:
     ```
-    cat filename
+    cat [filename]
     ```
 
 - **Deleting a File or Directory**
  - To delete a file or directory, run the following command:
     ```
-    rm -rf filename
+    rm -rf [filename]
     ```
     
 - **Generate a new SSH key pair**
