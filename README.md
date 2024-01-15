@@ -182,7 +182,12 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     cat [filename]
     ```
-
+- **copy file**
+ - To copy a file, run the following command:
+    ```
+    cp [Source_file] [Destination_file]
+    ```
+    
 - **Deleting a File or Directory**
  - To delete a file or directory, run the following command:
     ```
