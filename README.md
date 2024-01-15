@@ -145,7 +145,14 @@ This README file contains important Linux and GitHub commands that you should kn
     ```
     cd directoryname
     ```
-
+ - To change the current directory to parent directory, run the following command:
+    ```
+    cd ..
+    ```
+ - To change the current directory to root directory, run the following command:
+    ```
+    cd .
+    ```
 - **Listing the Contents of a Directory**
  - To list the contents of a directory, run the following command:
     ```
