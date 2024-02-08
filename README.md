@@ -43,11 +43,15 @@ This README file contains important Linux and GitHub commands that you should kn
 - **Adding a File to the Repository**
  - To add a file to the repository, first make sure the file is in the correct directory. Then, open your terminal or command prompt and navigate to the directory where the file is located. Finally, run the following command:
     ```
-    git add filename
+    git add "filename"
     ```
-
+- **Removing a File from the Repository**
+ - To remove a file from the repository, first make sure the file is in the correct directory. Then, run the following command:
+    ```
+    git rm --cached "filename"
+    ```
 - **Commiting Changes**
- - After adding the file, you can commit the changes to the repository with the following command:
+ - After adding/removing the file, you can commit the changes to the repository with the following command:
     ```
     git commit -m "commit message"
     ```
